@@ -254,3 +254,74 @@ input[type="password"] {
 .select-files-btn {
   float: left;
 }
+
+
+/*Testimonios*/
+
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  width: auto;
+  max-width: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial p {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .testimonials-container {
+    justify-content: space-around;
+  }
+
+  .testimonial {
+    width: 30%;
+  }
+}
+
+
+.cursos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursos {
+  width: auto;
+  max-width: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cursos img {
+  width: 100%;
+  height: auto;
+}
+
+.cursos p {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .cursos-container {
+    justify-content: space-around;
+  }
+
+  .cursos {
+    width: 30%;
+  }
+}
