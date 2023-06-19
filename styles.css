@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: blue;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
+
+main {
+  padding: 50px 0;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer a {
+  color: black;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+  main .container .row .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
